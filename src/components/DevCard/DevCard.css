@@ -1,0 +1,70 @@
+.dev-wrapper {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Inter", sans-serif;
+  background-color: rgb(189, 175, 175);
+  border-radius: 10px;
+  padding: 20px 15px;
+  width: 350px;
+  height: 150px;
+  margin: 10px;
+}
+
+.left {
+  flex: 2.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.left p {
+  margin: 5px;
+  font-size: 1rem;
+  color: #463f3f;
+}
+
+.left .social-container {
+  display: flex;
+  justify-content: center;
+  background-color: #a5a2a2;
+  gap: 10px;
+  margin-top: 10px;
+  padding: 10px 5px;
+  max-width: 160px;
+  border-radius: 10px;
+}
+
+.left img {
+  width: 40px;
+  height: 40px;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 100px;
+  text-align: center;
+}
+
+.right h4 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.right p {
+  margin: 5px;
+  font-size: 1rem;
+}
+
+.dev-wrapper hr {
+  background-color: black;
+}
