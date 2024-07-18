@@ -3,12 +3,12 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <div className="navbar-wrapper">
-      <a href="#" className="home">
+      <a href="#main" className="home">
         Home
       </a>
-      <a href="#">Features</a>
-      <a href="#">About</a>
-      <a href="#">Contact Us</a>
+      <a href="#features">Features</a>
+      <a href="#about">About</a>
+      <a href="#conatct">Contact Us</a>
     </div>
   );
 };

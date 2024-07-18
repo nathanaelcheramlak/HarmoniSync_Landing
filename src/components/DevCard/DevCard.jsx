@@ -8,18 +8,18 @@ const DevCar = ({ content }) => {
         <h3>{name}</h3>
         <p>{role}</p>
         <div className="social-container">
-          <a href={linkedinLink}>
+          <a href={linkedinLink} target="_blank">
             <img src="../../../public/assets/linkedin-icon.png" />
           </a>
-          <a href={githubLink}>
+          <a href={githubLink} target="_blank">
             <img src="../../../public/assets/github-icon.png" />
           </a>
-          <a href={twitterLink}>
+          <a href={twitterLink} target="_blank">
             <img src="../../../public/assets/twitter-icon.png" />
           </a>
         </div>
       </div>
-      <hr></hr>
+      <hr />
       <div className="right">
         <h4>ALX</h4>
         <p>Student</p>

@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
+        stoke: ["Stoke", "sans-serif"],
       },
     },
   },
