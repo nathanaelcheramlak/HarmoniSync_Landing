@@ -1,0 +1,24 @@
+.navbar-wrapper {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  color: #fff;
+}
+
+.navbar-wrapper a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 600;
+  /* color: white; */
+}
+
+.navbar-wrapper a:hover {
+  text-decoration: underline;
+}
+
+.navbar-wrapper .home {
+  justify-self: flex-start;
+}

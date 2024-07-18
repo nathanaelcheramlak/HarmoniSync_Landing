@@ -1,0 +1,27 @@
+.feature-wrapper {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  background-color: #d6e9ee;
+  border-radius: 10px;
+  padding: 10px 15px;
+  width: 200px;
+  height: 300px;
+  margin: 10px;
+}
+
+.center {
+  background-color: #eff175;
+}
+
+.feature-wrapper h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.feature-wrapper img {
+  max-width: 70%;
+  margin-top: 50px;
+  align-self: center;
+}
