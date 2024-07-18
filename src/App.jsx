@@ -1,15 +1,16 @@
 import "./App.css";
 import "./index.css";
 
+import { About, Main, ContactUs, Features } from "./containers";
+
 function App() {
   return (
     <section>
-      {/* <Navbar />
+      {/* <Navbar /> */}
       <Main />
       <Features />
       <About />
-      <ContactUS /> */}
-      <p className="text-9xl">Hello</p>Text
+      <ContactUs />
     </section>
   );
 }
