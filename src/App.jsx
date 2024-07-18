@@ -5,7 +5,7 @@ import { About, Main, ContactUs, Features } from "./containers";
 
 function App() {
   return (
-    <section>
+    <section className="bg_main">
       {/* <Navbar /> */}
       <Main />
       <Features />
