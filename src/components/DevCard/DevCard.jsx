@@ -1,4 +1,5 @@
 import "./DevCard.css";
+import { GithubIcon, LinkedinIcon, TwitterIcon } from "../../../public";
 
 const DevCar = ({ content }) => {
   const { name, role, githubLink, linkedinLink, twitterLink } = content;
@@ -9,13 +10,13 @@ const DevCar = ({ content }) => {
         <p>{role}</p>
         <div className="social-container">
           <a href={linkedinLink} target="_blank">
-            <img src="../../../public/assets/linkedin-icon.png" />
+            <img src={LinkedinIcon} />
           </a>
           <a href={githubLink} target="_blank">
-            <img src="../../../public/assets/github-icon.png" />
+            <img src={GithubIcon} />
           </a>
           <a href={twitterLink} target="_blank">
-            <img src="../../../public/assets/twitter-icon.png" />
+            <img src={TwitterIcon} />
           </a>
         </div>
       </div>
