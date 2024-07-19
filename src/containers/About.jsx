@@ -3,7 +3,7 @@ import { GithubIcon } from "../../public";
 const About = () => {
   return (
     <section className="relative z-10 about_section" id="about">
-      <div className="px-40 py-20 flex flex-col gap-11 w-full">
+      <div className="px-24 py-20 flex flex-col gap-11 w-full">
         <div className="z-20">
           <h1 className="text-3xl sm:text-6xl font-semibold tracking-wide">
             HarmoniSync

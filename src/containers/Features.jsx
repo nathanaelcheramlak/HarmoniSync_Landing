@@ -1,4 +1,10 @@
-import { NextIcon, FlaskIcon, MySqlIcon } from "../../public";
+import {
+  NextIcon,
+  FlaskIcon,
+  MySqlIcon,
+  SpotifyIcon,
+  BillboardIcon,
+} from "../../public";
 import FeatureCard from "../components/FeatureCard/FeatureCard";
 
 const features = [
@@ -12,14 +18,14 @@ const features = [
   {
     title: "Cross Platform Integration",
     description: "Our platform seamlessly integrates with Spotify.",
-    image: "../../public/assets/spotify-icon.png", // Ensure this path is correct
+    image: SpotifyIcon, // Ensure this path is correct
     isCenter: true,
   },
   {
     title: "Discover Trending Musics",
     description:
       "Explore the latest hits and trending tracks with our platform.",
-    image: "../../public/assets/billboard-icon.png", // Ensure this path is correct
+    image: BillboardIcon, // Ensure this path is correct
     isCenter: false,
   },
 ];
@@ -27,10 +33,10 @@ const features = [
 const Features = () => {
   return (
     <section
-      className="z-10 px-40 pb-32 w-full flex flex-col border-b bg-gradient-to-b from-transparent from-0% via-[#0A0D3C] via-6% to-[#09090F] to-60%"
+      className="z-10 px-20 pb-32 w-full flex flex-col border-b bg-gradient-to-b from-transparent from-0% via-[#0A0D3C] via-6% to-[#09090F] to-60%"
       id="features"
     >
-      <div className="z-10 flex items-center">
+      <div className="z-10 flex justify-between items-center">
         <div className="first:w-full">
           <h1 className="text-3xl sm:text-6xl tracking-wide font-semibold leading-[70px]">
             Personalized Music Recommendation
